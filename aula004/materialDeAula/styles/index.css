@@ -6,6 +6,78 @@
 header{
     /* 100% de largura */
     width: 100%;
-    height: 60px;
-    background-color: rgb(0, 81, 180);
+    height: 50px;
+    padding: 18px 0px;
+    background-color: #0051b4;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+    margin: 0px 25px;
+    background-color: #000000;
+    border-radius: 55px;
+    overflow: hidden;
+    float: left;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    width: auto;
+    height: 50px;
+    line-height: 53px;
+    float: right;
+    margin: 0px 25px;
+}
+
+a{
+    text-decoration: none;
+    margin: 0px 6px;
+    background-color: #b29800;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+main{
+    width: 90%;
+    background-color: #b29800;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: #574a00 6px 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h2{
+    color: #00306b;
+    text-align: center;
+}
+
+#banner{
+    width: 100%;
+    height: 400px;
+    margin: 15px 0;
+    background-image: url(../images/Noite-Estrelada.-Vincent-van-Gogh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h3{
+    color: #002552;
+    margin: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    padding: 10px 0px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #0051b4;
+    color: white;
 }
