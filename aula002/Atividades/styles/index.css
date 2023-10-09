@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#pagina{
+    width: 100%;
+    margin: 0px auto;
+}
+
+#titulo{
+    width: 100%;
+    height: 100px;
+    background-color: #4e0000;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    line-height: 95px;
+    font-size: larger;
+}
+
+.categoria{
+    padding: 20px;
+    font-size: 40px;
+    
+}
+
+.explicacao{
+    font-size: 14px;
+    color: #5a0000;
+    padding: 20px;
+    text-align: center;
+}
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
