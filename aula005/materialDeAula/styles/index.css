@@ -8,6 +8,11 @@ main{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+main p{
+    text-align: justify;
+    margin: 0px 40px;
+}
+
 h2{
     color: #00306b;
     text-align: center;
