@@ -1,0 +1,29 @@
+main{
+    width: 90%;
+    background-color: #b29800;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: #574a00 6px 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h2{
+    color: #00306b;
+    text-align: center;
+}
+
+#banner{
+    width: 100%;
+    height: 400px;
+    margin: 15px 0;
+    background-image: url(../images/Noite-Estrelada.-Vincent-van-Gogh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h3{
+    color: #002552;
+    margin: 20px;
+}
+

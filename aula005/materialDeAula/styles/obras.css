@@ -1,0 +1,39 @@
+main{
+    width: 100%;
+    margin: 20px 0px;
+    padding: 10px 0px;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(227, 224, 224);
+    margin-bottom: 20px;
+}
+
+section{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    background-color: #b29800;
+    margin: 0px auto;
+    border-radius: 20px;
+}
+
+.post{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+
+.imagemPostagem{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+}
+
+.textoPostagem{
+    width: 50%;
+    height: 100%;
+    background-color: aliceblue;
+}
