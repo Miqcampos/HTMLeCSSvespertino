@@ -1,0 +1,76 @@
+main{
+    width: 100%;
+    margin: 20px 0px;
+    padding: 10px 0px;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #e3e0e0;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#sectionItens{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    background-color: #b29800;
+    margin: 0px auto;
+    border-radius: 20px;
+    box-shadow: #574a00 6px 6px;
+    /* Config padrão: topo, esquerda e coluna */
+    display: flex; /* Muda a maneira de mostrar o navegador */
+    flex-direction: row;
+    justify-content: center; /* Justify-content - muda a orientação horizontal */
+     /* Align-items - muda a orientação vertical*/
+    flex-wrap: wrap; /* Flex-wrap - evita distorção dos elementos*/
+}
+
+.item{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    background-color: #e3e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.itemImagem{
+    width: 100%;
+    height: 65%;
+}
+
+.itemImagem img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.itemDescricao{
+    width: 100%;
+    height: 35%;
+}
+
+.itemDescricao h3{
+    margin: 10px 0px;
+    color: #002552;
+}
+
+.itemDescricao p{
+    text-align: left;
+    color: #001b3d;
+    margin-bottom: 5px;
+}
+
+.itemValor{
+    font-size: 14px;
+    color: green;
+    font-weight: bold;
+}
+
+h2{
+    color: #e3e0e0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
