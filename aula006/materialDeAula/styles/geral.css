@@ -1,0 +1,110 @@
+@keyframes mudaCor {
+    0%{
+        background-color: rgb(0, 0, 71);
+        margin-left: 0px;
+    }
+    10%{
+        background-color: rgb(122, 122, 242);
+        margin-left: 100px;
+    }
+    20%{
+        background-color: rgb(102, 0, 255);
+        margin-left: 200px;
+    }
+    30%{
+        background-color: rgb(199, 116, 255);
+        margin-left: 300px;
+    }
+    40%{
+        background-color: rgb(187, 0, 255);
+        margin-left: 400px;
+    }
+    50%{
+        background-color: rgb(249, 129, 255);
+        margin-left: 500px;
+    }
+    60%{
+        background-color: rgb(255, 0, 123);
+        margin-left: 400px;
+    }
+    70%{
+        background-color: rgb(255, 146, 184);
+        margin-left: 300px;
+    }
+    80%{
+        background-color: rgb(255, 0, 85);
+        margin-left: 200px;
+    }
+    90%{
+        background-color: rgb(255, 105, 123);
+        margin-left: 100px;
+    }
+    100%{
+        background-color: red;
+        margin-left: 0px;
+    }
+}
+
+@keyframes mudaBack {
+    0%{
+        background-image: url(../images/paisagem.png);
+        transition: 1s;
+    }
+    50%{
+        background-image: url(../images/pexels-obi-onyeador-13009437.jpg);
+        transition: 1s;
+    }
+    100%{
+        background-image: url(../images/pexels-ridvan-ayrik-16108218.jpg);
+        transition: 1s;
+    }
+}
+
+/* Fontes */
+@font-face{
+    font-family: FatalF;
+    src: url(../fonts/fatal_fighter/Fatal\ Fighter.otf);
+    /* tipos de arquivos de font: otf, ttf */
+}
+
+@font-face{
+    font-family: Pixel;
+    src: url(../fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: Pixel;
+    src: url(../fonts/Pixelify_Sans/static/PixelifySans-Bold.ttf);
+    font-weight: bold;
+}
+
+h3{
+    font-family: Pixel;
+    font-weight: bold;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Pixel;
+}
+
+#caixaCor{
+   width: 500px;
+   height: 500px;
+   background-color: rgb(0, 0, 71);
+   animation-name: mudaCor;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-delay: 3s;
+}
+
+#caixaImagem{
+    width: 500px;
+    height: 500px;
+    background-image: url(../images/gameover.jpg);
+    background-position: right;
+    background-size: cover;
+    animation: mudaBack 10s infinite;
+}
