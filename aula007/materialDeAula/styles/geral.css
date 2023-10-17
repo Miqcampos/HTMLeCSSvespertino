@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    width: 100%;
+    background-color: #181857;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    width: 35%;
+    height: auto;
+    padding: 20px;
+    background-color: #a1a1dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+h1{
+    color: white;
+    margin-top: 15px;
+}
+
+h3{
+    color: white;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>aula007</title>
+    <link rel="stylesheet" href="styles/geral.css">
+</head>
+<body>
+    <h1>Formulário</h1>
+    <h3>Cadastro</h3>
+
+    <!-- GET - pega as informações, coloca no URL, manda para o servidor -->
+    <!-- POST - pega as informações, manda para o servidor -->
+
+    <form action="cadastrar.php" method="post">
+
+        <!-- Required - obrigatório -->
+        <!-- Disabled - desabilita um input -->
+
+        <label for="nome">Nome*</label>
+        <input type="text" id="nome" required placeholder="Insira o seu nome">
+
+        <label for="email">E-mail*</label>
+        <input type="email" disabled id="email" placeholder="Insira o seu e-mail">
+        
+        <label for="senha">Senha*</label>
+        <input type="password" required id="senha" placeholder="Insira a sua senha">
+
+        <label for="idade">Digite sua idade*</label>
+        <input type="number" step="1" min="1" max="100" maxlength="3" id="idade" placeholder="Idade">
+
+        <label for="dataNascimento">Insira sua data de nascimento*</label>
+        <input type="date" name="" id="dataNascimento">
+
+        <label for="dataHora">Insira a hora do seu nascimento*</label>
+        <input type="time" id="dataHora">
+
+        <label for="cor">Coloque sua cor de preferencia*</label>
+        <input type="color" id="cor">
+
+        <!-- Para arquivos -->
+        <label for="foto">Insira uma imagem de perfil*</label>
+        <input type="file" id="fot">
+
+        <!-- Checkbox - verificar se "Sim" ou "Não"-->
+        <label for="checkEmail">Deseja receber notificações?</label>
+        <input type="checkbox" name="" id="checkEmail">
+        
+        <!-- Radio- marcar apenas uma opção -->
+        <fieldset>
+            <legend>Qual é o seu sexo?</legend> 
+        Men <input type="radio" name="sexo" value="men">
+        Woman <input type="radio" name="sexo" value="woman">
+        Others <input type="radio" name="sexo" value="others">
+        </fieldset>
+        
+        <!-- Select - várias opções -->
+        <label for="estado">Selecione o estado onde mora*</label>
+        <select id="estado">
+            <option value="DF">Distrito Federal</option>
+            <option value="AC">Acre</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+            <option value="BA">Bahia</option>
+        </select>
+
+        <!-- Textarea - área de texto -->
+        <label for="feedback">Digite seu feedback!</label>
+        <textarea id="feedback" cols="30" rows=3" maxlength="35""></textarea>
+        <!-- style="resize: none; - tira o reajuste da caixa de texto -->
+
+        <button type="submit">Cadastrar</button>
+        <button type="reset">Refazer formulário</button>
+
+        <!-- SUBMIT - envia -->
+        <!-- RESET - apaga os inputs -->
+        <!-- MENU - botão para menus -->
+        <!-- BUTTON - botão sem ação -->
+        <!-- <input type="button" value="Mensagem"> -->
+
+    </form>
+</body>
+</html>
