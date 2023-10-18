@@ -1,0 +1,116 @@
+@keyframes borda{
+    0%{
+        border: 3px solid #171652;
+        transition: 0.5s;
+    }
+    50%{
+        border: 3px solid #5d70c5;
+        transition: 0.5s;
+    }
+    100%{
+        border: 3px solid #171652;
+        transition: 0.5s;
+    }
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#pagina{
+    width: 100%;
+    height: 100vh;
+    background-color: #171652;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main{
+    width: 65%;
+    height: 700px;
+    background-color: rgb(201, 197, 241);
+    border-radius: 20px;
+    box-shadow: #060033 6px 6px;
+    display: flex;
+    overflow: hidden;
+}
+
+#banner, #formulario{
+    width: 50%;
+    height: 100%;
+}
+
+#banner{
+    background-image: url(../images/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#efeito{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.171);
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h2{
+    color: #060033;
+    margin: 90px;
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+}
+
+input{
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+input:hover{
+    transition: 0.5s;
+    background-color: #a6a0ff;
+}
+
+input:focus{
+    width: 350px;
+    height: 30px;
+    transition: 1s;
+    background-color: #a6a0ff;
+    animation: borda 1.5s infinite;
+}
+
+button{
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+    background-color: #171652;
+    color: white;
+}
+
+button:active{
+    background-color: white;
+    color: #5d70c5;
+}
+
+button:hover{
+    width: 250px;
+    height: 30px;
+    background-color: #060033;
+    font-weight: bold;
+    transition: 0.5s;
+}
