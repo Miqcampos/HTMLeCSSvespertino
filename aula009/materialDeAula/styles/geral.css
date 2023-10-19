@@ -33,3 +33,30 @@ th:hover{
 th, td{
     border: 2px solid black;
 }
+
+#tabelaAlunos{
+    width: 550px;
+    height: auto;
+}
+
+#tabelaAlunos td, #tabelaAlunos th{
+    height: 30px;
+}
+
+h3{
+    margin: 30px 0px;
+}
+
+td{
+    text-align: center;
+}
+
+#scroll{
+    width: 30px;
+    height: 3000px;
+}
+
+thead{
+    position: sticky;
+    top: -1px;
+}

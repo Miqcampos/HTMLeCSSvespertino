@@ -39,6 +39,81 @@
     <!-- Tr - table row (linha) -->
     <!--Th - table header (cabeçalho da tabela)  --> 
     <!-- Td - table data (dados da tabela) -->
+
+
+    <!-- Th colspan - mesclar colunas -->
+    <!-- Td rowspan - merclar linhas -->
+
+    <h3>Lista de alunos</h3>
+    <table id="tabelaAlunos">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Nome do aluno</th>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+                <th>Nota 3</th>
+                <th>Média final</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td>Fulano</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>Fulano</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>Fulano</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td>Fulano</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td rowspan="2">João</td>
+                <td>4</td>
+                <td>2</td>
+                <td>1</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>6</th>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="5">Média da sala</th>
+                <td>10</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div id="scroll"></div>
      
 </body>
 </html>
