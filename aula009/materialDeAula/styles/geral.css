@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+table{
+    border-collapse: collapse;
+    width: 400px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th{
+    background-color: rgb(31, 30, 133);
+    color: white;
+}
+
+th:empty{
+    border: none;
+    background-color: transparent;
+}
+
+th:active , td:active{
+    background-color: #8383c7;
+    color: black;
+    border: 2px solid #8383c7;
+}
+
+th:hover{
+    background-color: #8383c7;
+}
+
+th, td{
+    border: 2px solid black;
+}
