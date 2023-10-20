@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <link rel="stylesheet" href="styles/geral.css">
+</head>
+<body>
+
+    <h1> Listas </h1>
+    <h3> Roteiro de viagem (lista ordenada) </h3>
+    <div id="viagem" class="listas">
+        <ol type="1">
+            <!-- Li - list item -->
+            <h4>Conferir itens</h4>
+            <li>Conferir o dinheiro</li>
+            <li>Conferir passaporte</li>
+            <li>Conferir hospedagem</li>
+            <h4>Arrumar itens</h4>
+            <li>Arrumar malas</li>
+            <h4>Viajar</h4>
+            <li>Ir até o aeroporto</li>
+            <li>Embarcar</li>
+        </ol>
+    </div>
+
+    <h3> Lista de compras (lista não ordenada) </h3>
+    <div class="listas" id="compras">
+        <ul type="circle">
+            <li>batata</li>
+            <li>arroz</li>
+            <li>feijão</li>
+            <li>carne</li>
+            <li>verduras</li>
+            <li>frutas</li>
+            <li>chocolate</li>
+            <li>limpeza</li>
+        </ul>        
+    </div>
+
+    <h3> Dicionário (lista de descrição) </h3>
+    <div id="dicionario" class="listas">
+        <dl>
+            <!-- Dt - description term -->
+            <dt>Lista ordenada</dt>
+            <!-- descrição do termo -->
+            <dd>Uma lista onde a ordem dos elementos importa</dd>
+            <dt>Lista não ordenada</dt>
+            <dd>Uma lista onde a ordem dos elementos não importa</dd>
+        </dl>
+    </div>
+
+    <div>
+        <h3> Computadores </h3>
+        <div class="listas" id="computadores">
+            <ol>
+                <li>
+                    <dt>Computador do victor</dt>
+                    <dd> Computador do professor com as marcas Nvidea e Intel</dd>
+                    <h4>Descrições tecnicas</h4>
+                    <ul>
+                        <li>Processador : i710700K Intel</li>
+                        <li>48G Memória RAM DDR4 Corsair</li>
+                        <li>Placa de vídeo RTX 2060 4VRAM</li>
+                        <li>Fonte 550V Corsair</li>
+                        <li>Placa mãe - ROG Strix</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <dt>Computador da turma</dt>
+                    <dd> Computador ultilizado em sala de aula</dd>
+                    <h4>Descrições tecnicas</h4>
+                    <ul>
+                        <li>Processador : i9 Intel</li>
+                        <li>120G Memória RAM DDR5 Corsair</li>
+                        <li>Placa de vídeo RTX 4090 24VRAM</li>
+                        <li>Fonte 1000V Corsair</li>
+                        <li>Placa mãe - ROG Strix</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        <div>
+            <h3>Sumário Front-end</h3>
+            <div class="listas" id="sumario">
+                <h4>Básico</h4>
+                <ol>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Js</li>
+                </ol>
+                <h4>Intermediário</h4>
+                <ol start="4">
+                    <li>Bootstrap</li>
+                    <li>Wordpress</li>
+                    <li>Jquery</li>
+                </ol>
+                <h4>Avançado</h4>
+                <ol start="7">
+                    <li>React</li>
+                    <li>Vue</li>
+                    <li>Cobol</li>
+                </ol>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
