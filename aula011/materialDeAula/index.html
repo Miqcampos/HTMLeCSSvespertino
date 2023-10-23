@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula011 - Responsividade</title>
+    <link rel="stylesheet" href="styles/geral.css">
+    <link rel="stylesheet" href="styles/@media.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="styles/landscape.css" media="screen and (orientation: landscape)">
+    <link rel="stylesheet" href="styles/portrait.css" media="screen and (orientation: portrait)">
+</head>
+<body>
+    <div id="pagina">
+
+        <header>
+            <div id="logo">
+                <img src="images/husk.jpg" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Atividade</a></li>
+                    <li><a href="#">Conteúdo</a></li>
+                    <li><a href="#">Professor</a></li>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
+            </nav>
+            <!-- Mobile -->
+            <div id="menuMobile">
+                <img src="images/menuIcon.svg" alt="">
+            </div>
+        </header>
+
+        <main>
+
+            <picture>
+                <source srcset="images/mulherdancandoMenor.jpg" media="screen and (max-width: 768px)">
+                <img src="images/mulherdancando.jpg" alt="mulherdancando">
+            </picture>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit tenetur facilis quasi adipisci accusamus et dolore suscipit fugiat vel aut enim voluptates voluptatibus nihil, odit ex nam ab odio quos?</p>
+
+        </main>
+
+        <footer></footer>
+    </div>
+</body>
+</html>
