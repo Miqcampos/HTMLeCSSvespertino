@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtMuseum</title>
+    <link rel="stylesheet" href="styles/geral.css">
+    <link rel="stylesheet" href="styles/@media.css" media="screen and (max-width: 768px)">
+</head>
+<body>
+    <div id="pagina">
+
+        <header>
+            <!-- Pc -->
+
+            <div id="titulo"><h1>ArtMuseum</h1></div>
+
+            <nav id="opcoesPc">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+
+            <!-- Mobile -->
+
+            <div id="menuMobile" onclick="abrirOpcoes()">
+                <img src="images/menuIcon.svg" alt="">
+            </div>
+
+        </header>
+
+        <nav id="opcoesMobile">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Destaque da semana</h2>
+        <hr>
+
+            <section>
+                <h3>Elizabeth</h3>
+                <picture>
+                    <source srcset="images/elizabethMenor.png" media="screen and (max-width: 768px)">
+                    <img src="images/elizabeth.jpg" alt="">
+                 </picture>
+        
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt labore ipsam odit quo omnis! Quasi harum reprehenderit, impedit iste odit maiores provident rem nobis illum voluptatibus quo tempore expedita!</p>
+
+                <a href=""><button class="botao">Ver Mais</button></a>
+            </section>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit odio animi ea! Odit cumque est adipisci asperiores voluptas quas excepturi, quia sit iure esse. Illo placeat voluptas aliquam eos nostrum?</p>
+
+            <h2>Artes</h2><hr>
+
+            <div id="artes">
+                <div class="item">
+                    <div class="tituloDaImagem">
+                        <h3>Título da imagem</h3>
+                    </div>
+                    <div class="imagem">
+                        <img src="images/arte1.jpg" alt="">
+                    </div>
+                    <div class="descricaoDaImagem">
+                        descrição da imagem
+                    </div>
+
+                    <a href=""><button class="botao">Ver Sobre</button></a>
+                </div>
+                <div class="item">
+                    <div class="tituloDaImagem">
+                        <h3>Título da imagem</h3>
+                    </div>
+                    <div class="imagem">
+                        <img src="images/arte2.jpg" alt="">
+                    </div>
+                    <div class="descricaoDaImagem">
+                        descrição da imagem
+                    </div>
+
+                    <a href=""><button class="botao">Ver Sobre</button></a>
+                </div>
+                <div class="item">
+                    <div class="tituloDaImagem">
+                        <h3>Título da imagem</h3>
+                    </div>
+                    <div class="imagem">
+                        <img src="images/arte3.jpg" alt="">
+                    </div>
+                    <div class="descricaoDaImagem">
+                        descrição da imagem
+                    </div>
+
+                    <a href=""><button class="botao">Ver Sobre</button></a>
+                </div>
+            </div>
+            
+        </main>
+
+        <footer>
+            <p>ArtMuseum @ 2023</p>
+        </footer>
+
+    </div>
+
+    <script>
+        function abrirOpcoes(){
+            if (opcoesMobile.style.display == "none"){
+                opcoesMobile.style.display = "flex"
+            }else{
+                opcoesMobile.style.display = "none"
+            }
+        }
+    </script>
+
+</body>
+</html>
