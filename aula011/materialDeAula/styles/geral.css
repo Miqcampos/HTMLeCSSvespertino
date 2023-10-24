@@ -77,3 +77,30 @@ main img{
         color: rgb(149, 0, 0);
     }
 }
+
+#opcoesMobile{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: black;
+    display: none;
+    flex-direction: column;
+}
+
+#opcoesMobile ul{
+    flex-direction: column;
+}
+
+#opcoesMobile ul li{
+    width: 100%;
+    height: 30px;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#opcoesMobile ul li:hover{
+    background-color: rgb(76, 70, 70);
+    border-radius: 10px;
+    transition: 1s;
+}

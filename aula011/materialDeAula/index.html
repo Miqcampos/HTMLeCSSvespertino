@@ -13,10 +13,12 @@
     <div id="pagina">
 
         <header>
+
             <div id="logo">
-                <img src="images/husk.jpg" alt="">
+                <img src="images/logo.jpg" alt="">
             </div>
-            <nav>
+
+            <nav id="opcoesPc">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Atividade</a></li>
@@ -25,11 +27,26 @@
                     <li><a href="#">Sobre</a></li>
                 </ul>
             </nav>
+
             <!-- Mobile -->
-            <div id="menuMobile">
+
+            <div id="menuMobile" onclick="abrirOpcoes()">
                 <img src="images/menuIcon.svg" alt="">
             </div>
+
         </header>
+
+        <!-- Menu mobile -->
+
+        <nav id="opcoesMobile">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Atividade</a></li>
+                <li><a href="#">Conteúdo</a></li>
+                <li><a href="#">Professor</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
 
         <main>
 
@@ -43,6 +60,18 @@
         </main>
 
         <footer></footer>
+
     </div>
+
+    <script>
+        function abrirOpcoes(){
+            if (opcoesMobile.style.display == "none"){
+                opcoesMobile.style.display = "flex"
+            }else{
+                opcoesMobile.style.display = "none"
+            }
+        }
+    </script>
+
 </body>
 </html>
