@@ -14,6 +14,7 @@
 
 h1, h2, h3, h4, h5{
     font-family: 'Bebas Neue';
+    color: white;
 }
 
 #pagina, header, footer, main, #galeria{
@@ -93,9 +94,9 @@ hr{
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    border: 1px solid #2A2B2A;
+    border: 1px solid #353635;
     border-radius: 15px;
-    box-shadow: 4px 4px 4px #2A2B2A;
+    box-shadow: 4px 4px 4px #585a58;
 }
 
 #destaque p{
@@ -103,12 +104,16 @@ hr{
     text-align: center;
 }
 
+p{
+    color: white;
+}
+
 button{
     width: 80px;
     padding: 10px;
     background-color: #F5124B;
     border: none;
-    color: white;
+    color: #cfcfcf;
     border-radius: 5px;
 }
 
@@ -121,6 +126,10 @@ button{
     gap: 20px;
     margin: 20px 0px;
     flex-wrap: wrap;
+}
+
+#galeria p{
+    color: #cfcfcf;
 }
 
 #textoPagina{
@@ -136,9 +145,9 @@ button{
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    border: 1px solid #2A2B2A;
+    border: 1px solid #353635;
     border-radius: 15px;
-    box-shadow: 4px 4px 4px #2A2B2A;
+    box-shadow: 4px 4px 4px #585a58;
     transition: 1s;
 }
 
