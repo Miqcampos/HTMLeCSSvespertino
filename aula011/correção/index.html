@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ArtMuseum</title>
     <link rel="stylesheet" href="styles/geral.css">
+    <link rel="stylesheet" href="styles/@media.css" media="screen and (max-width: 768px)">
 </head>
 <body>
     <div id="pagina">
@@ -18,17 +19,38 @@
                     <li><a href="#">Contato</a></li>
                 </ul>
             </nav>
+            <div id="menuIcon" onclick="abrirMenu()">
+                <img class="imagem" src="images/menuIcon.svg" alt="">
+            </div>
         </header>
+
+        <!-- Menu mobile -->
+
+        <nav id="menuMobile">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+
+        <!-- Fim menu mobile -->
 
         <main>
             <h4>Destaque da semana</h4>
             <hr>
+
             <div id="destaque">
                 <h4>Elizabeth</h4>
-                <img class="imagem" src="images/elizabeth.jpg" alt="elizabethPhoto">
+                <picture>
+                    <source class="imagem" srcset="images/elizabethMenor.png" media="screen and (max-width: 768px)">
+                    <source class="imagem" srcset="images/elizabethLandscape.png" media="screen and (orientation: LandScape) and (max-height: 500px)">
+                    <img class="imagem" src="images/elizabeth.jpg" alt="elizabethPhoto">
+                </picture>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id omnis magni officia voluptatum ipsam rem eaque. Officia neque ullam at quam. Harum dolorem repudiandae animi ab repellat cumque enim quis!</p>
                 <button type="button">Ver Sobre</button>
             </div>
+
             <p id="textoPagina">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, beatae! Molestias voluptatem eius deserunt totam at impedit consequatur cumque eum placeat quidem, cum laboriosam fugiat sed unde ad deleniti perspiciatis?</p>
             <h3>Artes</h3>
             <hr>
@@ -60,5 +82,16 @@
         <footer>ArtMuseum @ 2023</footer>
 
     </div>
+
+    <script>
+        function abrirMenu(){
+            if(menuMobile.style.display == "none"){
+                menuMobile.style.display = "flex";
+            }else{
+                menuMobile.style.display = "none";
+            }
+        }
+    </script>
+
 </body>
 </html>
