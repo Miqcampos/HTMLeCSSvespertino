@@ -7,7 +7,11 @@
 }
 
 .post{
-    width: 90%;
+    width: 60%;
+}
+
+.post:hover{
+    width: 80%;
 }
 
 #menuMobile{

@@ -81,7 +81,8 @@ main{
 
 hr{
     width: 40%;
-    border: 1px solid #F5124B;;
+    border: 1px solid #F5124B;
+    transition: 1s;
 }
 
 #destaque{
@@ -94,6 +95,7 @@ hr{
     gap: 10px;
     border: 1px solid #2A2B2A;
     border-radius: 15px;
+    box-shadow: 4px 4px 4px #2A2B2A;
 }
 
 #destaque p{
@@ -103,7 +105,7 @@ hr{
 
 button{
     width: 80px;
-    padding: 5px;
+    padding: 10px;
     background-color: #F5124B;
     border: none;
     color: white;
@@ -136,6 +138,13 @@ button{
     gap: 15px;
     border: 1px solid #2A2B2A;
     border-radius: 15px;
+    box-shadow: 4px 4px 4px #2A2B2A;
+    transition: 1s;
+}
+
+.post:hover{
+    width: 250px;
+    padding: 30px;
 }
 
 /* Fim conteúdo */
