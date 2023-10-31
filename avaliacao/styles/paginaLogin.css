@@ -1,0 +1,74 @@
+main{
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: #0f0f0f 4px 4px;
+    display: flex;
+    overflow: hidden;
+}
+
+h2{
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+#formulario{
+    width: 40%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 6px;
+}
+
+#banner{
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+input{
+    height: 20px;
+    border: 0;
+    border-bottom: 1px solid #1d1d1d;
+}
+
+input:hover{
+    transition: 0.5s;
+    border-bottom: 1px solid red;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin: 10px 0px;
+}
+
+a:hover{
+    transition: 0.5s;
+    color: #cf1414;
+}
+
+button{
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1d1d1d;
+    color: white;
+}
+
+button:hover{
+    transition: 0.5s;
+    background-color: #cf1414;
+}
+
