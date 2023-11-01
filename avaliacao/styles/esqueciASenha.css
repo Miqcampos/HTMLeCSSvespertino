@@ -1,0 +1,17 @@
+body{
+    background-image: url(../images/fundoTeste.jpg);
+    background-size: contain;
+}
+
+#formulario{
+    width: 90%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    margin-bottom: 70px;
+    text-align: center;
+}
+

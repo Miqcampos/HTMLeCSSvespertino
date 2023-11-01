@@ -1,6 +1,7 @@
 /* fontes importadas */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 
 *{
     margin: 0%;
@@ -10,7 +11,7 @@
 
 /* pagina */
 
-#pagina, header{
+#pagina, header, footer{
     width: 100%;
     display: flex;
 }
@@ -21,7 +22,7 @@
 }
 
 h1, h2, h3, h4{
-    font-family: 'Bebas Neue';
+    font-family: 'Roboto Slab';
 }
 
 /* cabeçalho */
@@ -52,3 +53,76 @@ li a{
 }
 
 /* fim cabeçalho */
+
+/* formulario */
+
+main{
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: #0f0f0f 4px 4px;
+    display: flex;
+    overflow: hidden;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+input{
+    height: 20px;
+    border: 0;
+    border-bottom: 1px solid #1d1d1d;
+}
+
+input:hover{
+    transition: 0.5s;
+    border-bottom: 1px solid rgb(255, 208, 0);
+}
+
+input:focus{
+    height: 22px;
+    background-color: #dba2046b;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin: 5px 0px;
+}
+
+a:hover{
+    transition: 0.5s;
+    font-size: 13px;
+    color: #dba204;
+}
+
+button{
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1d1d1d;
+    color: white;
+}
+
+button:hover{
+    transition: 0.5s;
+    height: 32px;
+    background-color: #dba204;
+}
+
+/* fim formulario */
+
+footer{
+    height: 50px;
+    background-color: #2A2B2A;
+    margin-top: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,16 @@
+body{
+    background-image: url(../images/fundoCadastro.jpg);
+    background-size: contain;
+}
+
+h2{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#formulario{
+    width: 90%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
