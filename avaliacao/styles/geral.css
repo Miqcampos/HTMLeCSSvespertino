@@ -52,14 +52,28 @@ li a{
     color: aliceblue;
 }
 
+#menuIcon{
+    width: 25px;
+    height: 25px;
+    transition: 0.5s;
+    display: none;
+}
+
+#menuIcon:hover{
+    box-shadow: 3px 3px 3px #dba204;
+}
+
+#menuMobile{
+    display: none;
+}
+
 /* fim cabeçalho */
 
 /* formulario */
 
 main{
-    width: 50%;
     height: 500px;
-    margin-top: 100px;
+    margin: 180px auto;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     box-shadow: #0f0f0f 4px 4px;
@@ -70,7 +84,7 @@ main{
 form{
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 7px;
 }
 
 input{
@@ -121,7 +135,6 @@ button:hover{
 footer{
     height: 50px;
     background-color: #2A2B2A;
-    margin-top: 100px;
     color: white;
     justify-content: center;
     align-items: center;

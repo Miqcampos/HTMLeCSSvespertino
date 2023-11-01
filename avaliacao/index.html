@@ -6,6 +6,7 @@
     <title>ForGallery</title>
     <link rel="stylesheet" href="styles/geral.css">
     <link rel="stylesheet" href="styles/paginaLogin.css">
+    <link rel="stylesheet" href="styles/@media.css" media="screen and (max-width: 768px)">
     <link rel="shortcut icon" href="images/shortCut.png">
 </head>
 <body>
@@ -19,7 +20,22 @@
                     <li><a href="#">Sobre nós</a></li>
                 </ul>
             </nav>
+            <div id="menuIcon" onclick="abrirMenu()">
+                <img src="images/menuIcon.svg" alt="">
+            </div>
         </header>
+
+        <!-- menu mobile -->
+
+        <nav id="menuMobile">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/cadastro.html">Cadastro</a></li>
+                <li><a href="#">Sobre nós</a></li>
+            </ul>
+        </nav>
+
+        <!-- fim menu mobile -->
 
         <main>
             <div id="banner"></div>
@@ -44,6 +60,15 @@
 
         <footer>ForGallery @ 2077</footer>
     </div>
-    
+
+    <script>
+        function abrirMenu(){
+            if(menuMobile.style.display == "none"){
+                menuMobile.style.display = "flex";
+            }else{
+                menuMobile.style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>
