@@ -1,0 +1,49 @@
+:root {
+    --rosa: #fd8ff8;
+    --azul: #0084ff;
+    --verde: #00a566;
+    --branco: #ffffff;
+}
+
+#root {
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+header {
+    background-color: var(--branco)!important;
+}
+
+#bannerSection {
+    height: 750px;
+    background-image: url(../images/barbieBanner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#infoBanner {
+    width: 300px;
+    margin-left: 150px;
+}
+
+#descricao {
+    margin: 100px 0px;
+}
+
+#barbieDescricao, #kenDescricao, #ken2Descricao {
+    gap: 150px;
+}
+
+#barbieImg img {
+    border-radius: 100%;
+    border: 5px solid var(--rosa);
+}
+
+#kenImg img {
+    border-radius: 100%;
+    border: 5px solid var(--azul);
+}
+
+#ken2Img img {
+    border-radius: 100%;
+    border: 5px solid var(--verde);
+}
