@@ -13,9 +13,11 @@ header {
     background-color: var(--branco)!important;
 }
 
+/* banner */
+
 #bannerSection {
     height: 750px;
-    background-image: url(../images/barbieBanner2.jpg);
+    background-image: url(../images/barbieBanner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -24,6 +26,8 @@ header {
     width: 300px;
     margin-left: 150px;
 }
+
+/* descricao */
 
 #descricao {
     margin: 100px 0px;
@@ -46,4 +50,37 @@ header {
 #ken2Img img {
     border-radius: 100%;
     border: 5px solid var(--verde);
+}
+
+/* mais personagens */
+
+#imgTop img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+#bEstranha img, #bSereia img {
+    border: 5px solid rgb(235, 208, 0);
+}
+
+#bPresidente img, #bMedica img {
+    border: 5px solid rgb(150, 0, 0);
+}
+
+#allan img, #sasha img {
+    border: 5px solid orangered;
+}
+
+#bAdvogada img, #bEscritora img {
+    border: 5px solid var(--rosa);
+}
+
+/* sinopse */
+
+#sinopseInfo {
+    width: 80%;
+    border-radius: 100px;
+    border: 5px solid var(--rosa);
+    font-size: 19px;
 }
